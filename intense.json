@@ -1,0 +1,71 @@
+{"intents":
+
+[
+    {"tag":"greetings",
+    "patterns":["hello","hey","hi","good day","greetings","what's up","How is going"],
+    "responses":["Hello","Hey","What can I do for you?"]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["What's the weather like today?", "Is it going to rain?", "Will it be sunny this weekend?", "How hot will it get tomorrow?"],
+        "responses": ["It's currently partly cloudy and warm outside.", "There's a chance of rain later today.", "The forecast calls for sunny skies this weekend.", "Temperatures are expected to reach the mid-80s tomorrow."] 
+    },
+    {
+        
+        "tag": "news",
+        "patterns": ["What's the latest news?", "What's happening in the world?", "What's going on in politics?", "Any big news stories today?"],
+        "responses": ["The COVID-19 pandemic continues to be a major global issue.", "There's been a surge in climate change-related disasters in recent months.", "The U.S. presidential election is heating up.", "A major tech company just announced a new product launch."]
+        
+    },
+    {
+        "tag": "emotions",
+        "patterns": ["How are you feeling?", "What's your mood today?", "Are you happy or sad?", "What's been bothering you?"],
+        "responses": ["I'm just a machine, so I don't have emotions like humans do.", "I'm programmed to be neutral and objective at all times.", "My primary goal is to provide helpful and informative responses to your questions.", "I don't experience emotions, but I'm here to assist you."]
+    },
+    {
+        "tag": "music",
+        "patterns": ["What's your favorite genre of music?", "Who's your favorite artist?", "Can you recommend a good playlist?", "What's a popular song right now?"],
+        "responses": ["I don't have personal preferences, as I'm an AI language model.", "Some of the most popular artists of all time include The Beatles, Elvis Presley, and Michael Jackson.", "Here are some curated playlists that you might enjoy.", "The most streamed song on Spotify right now is 'Montero (Call Me By Your Name)' by Lil Nas X."]
+    },
+    {
+        "tag": "health",
+        "patterns": ["What's the best way to stay healthy?", "How can I improve my fitness?", "What's a healthy diet?", "What are some common health issues?"],
+        "responses": ["Eating a balanced diet, exercising regularly, and getting enough sleep are all key to maintaining good health.", "Here are some exercises that can help you stay fit.", "A healthy diet includes plenty of fruits, vegetables, whole grains, lean protein, and healthy fats.", "Some common health issues include high blood pressure, diabetes, and mental health disorders."]   
+    },
+    {
+        
+        "tag": "sports",
+        "patterns": ["What's the latest sports news?", "Who won the game last night?", "What's happening in the world of sports?", "What are the most popular sports?"],
+        "responses": ["The Tokyo Olympics are coming up this summer.", "The Lakers won their game against the Nets last night.", "The Euro 2020 soccer tournament is currently taking place.", "Some of the most popular sports include basketball, football, soccer, and tennis."]
+
+    },
+    {
+      
+        "tag": "travel",
+        "patterns": ["Where should I go for my next vacation?", "What are some popular travel destinations?", "How can I find cheap flights?", "What are some good travel tips?"],
+        "responses": ["It depends on your interests and budget. Some popular destinations include Paris, Bali, and New York City.", "Here are some of the most beautiful places in the world that you might want to visit.", "Here are some tips for finding cheap flights.", "Here are some travel tips to help you have a safe and enjoyable trip."]
+
+    },
+    {
+        "tag": "technology",
+        "patterns": ["What's the latest tech news?", "What are some new gadgets on the market?", "How can I protect my online privacy?", "What's the future of technology?"],
+        "responses": ["Apple just released a new iPhone model.", "Here are some of the coolest tech gadgets available right now.", "Here are some tips for protecting your online privacy.", "The future of technology is likely to include more advanced AI, augmented and virtual reality, and the Internet of Things."]
+    },
+    {
+        
+        "tag": "fashion",
+        "patterns": ["What are some fashion trends?", "What should I wear to a wedding?", "How can I create a stylish outfit?", "What's the difference between fashion and style?"],
+        "responses": ["Some current fashion trends include oversized clothing, bold prints, and athleisure.", "Here are some outfit ideas for wedding guests.", "Here are some tips for creating a stylish outfit.", "Fashion refers to the latest trends and styles, while style is more about your personal expression and preferences."]
+
+    },
+    {
+
+        "tag": "food",
+        "patterns": ["What's a good recipe for dinner?", "What are some healthy snacks?", "What's the best cuisine in the world?", "How can I improve my cooking skills?"],
+        "responses": ["Here's a recipe for a delicious chicken and vegetable stir-fry.", "Here are some healthy snack ideas that are easy to make.", "Some of the best cuisines in the world include Italian, Thai, and Mexican.", "Here are some tips for improving your cooking skills and becoming a better home chef."]
+
+
+    }
+]
+
+}
